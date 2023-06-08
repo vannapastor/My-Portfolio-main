@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Jay Are Maynagcot</title>
+    <link rel="shortcut icon" type="images" href="images/j_logo.jpg" />
+    <link rel="stylesheet" href="style.css" id="theme-style" />
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/741560515d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-SOME_HASH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body onLoad="renderTime();">
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1>Jay <span style="color: #ff004f">Are</span></h1>
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">OJT Experience</a></li>
+            <li><a href="#portfolio">OJT Exposure</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div id="clockDisplay"></div>
+        <div class="header-text">
+          <p>Aspiring Web | Mobile | Game Developer</p>
+          <h1>Hi, I'm Jay <span>Are</span><br />Maynagcot</h1>
+          <img
+            src="images/jayare-removebg-preview.png"
+            style="margin-left: 59%; margin-top: -33.5%"
+          />
+        </div>
+      </div>
+    </div>
+    <!-----about---->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/2x2pic-removebg-preview-removebg-preview.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              A graduating student who lives in Toril Marapangi 1, DAVAO CITY. I
+              am working as a Software Developer at Department of Information
+              and Communications Technology - DICT. My job is to create,
+              develop, innovate and a system. I always join free seminars and
+              trainings such as DICT, Universities, and TESDA trainings to gain
+              more knowledge. Solving Math problems and watching learning videos
+              are my hobbies.<br /><br />
+              <!--   <p font size="4"  style="color: #ff004f"><b>MY AWARDS</b></font></p><br>
+                    Civil Service Exam - Professional<br>PNP Entrance Eligibility<br>Armed Forces of the Philippines Aptitude Test<br>
+                -->
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                <b>Skills</b>
+              </p>
+              <p class="tab-links" onclick="opentab('education')">
+                <b>Education</b>
+              </p>
+              <p class="tab-links" onclick="opentab('trainings')">
+                <b>Trainings</b>
+              </p>
+              <p class="tab-links" onclick="opentab('awards')"><b>Awards</b></p>
+              <p class="tab-links" onclick="opentab('certificates')">
+                <b>Certificates</b>
+              </p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul style="list-style: square">
+                <li>
+                  • Proficient with Microsoft Word, Excel, and Power Point
+                </li>
+                <li>• Good sense of working in Team</li>
+                <li>
+                  • Good in problem solving, analytical, and evaluations skills
+                </li>
+                <li>• Troubleshooting Skills</li>
+                <li>• Basic Web Developing</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020-Present</span><br />Holy Cross of Davao College
+                </li>
+                <li><span>2018-2020</span><br />Ateneo De Davao University</li>
+                <li>
+                  <span>2016-2018</span><br />University of Immaculate
+                  Conception
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="trainings">
+              <ul>
+                <li>
+                  <span>March 20, 2023</span><br /><b
+                    >Cybersecurity Awareness for Non-Teaching Staff (8-hour
+                    Training)</b
+                  >
+                  <br />Department of Information and Communications Technology
+                  – Region 11
+                </li>
+                <li>
+                  <span>March 20, 2023</span><br /><b
+                    >Cybersecurity Awareness for Non-Teaching Staff (8-hour
+                    Training)</b
+                  >
+                  <br />Department of Information and Communications Technology
+                  – Region 11
+                </li>
+                <li>
+                  <span>March 20, 2023</span><br /><b
+                    >Cybersecurity Awareness for Non-Teaching Staff (8-hour
+                    Training)</b
+                  >
+                  <br />Department of Information and Communications Technology
+                  – Region 11
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="awards">
+              <ul>
+                <li>• Champion</li>
+                <li>• Champion</li>
+                <li>• Champion</li>
+                <li>• Champion</li>
+                <li>• Champion</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="certificates">
+              <ul>
+                <li>• Certificate 1</li>
+                <li>• Certificate 2</li>
+                <li>• Certificate 3</li>
+                <li>• Certificate 4</li>
+                <li>• Certificate 5</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---services-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">OJT Experience</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-computer"></i>
+            <h2>Developer</h2>
+            <h4>March 20, 2023 - Present</h4>
+            <h3>Deparment of Information and Communications Technology</h3>
+            <br />
+            <p style="font-size: 14px">
+              Check the condition of the parts of machines whose listed in the
+              checksheet, set-up and test the given activity, check output data
+              and retest the failed data for double-checking, troubleshoot and
+              fix machine errors, and send status and data to superior
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h2>Encoder</h2>
+            <h4>March 20, 2023 - Present</h4>
+            <h3>Deparment of Information and Communications Technology</h3>
+            <br />
+            <p style="font-size: 14px">
+              Kami naga encode sa mga tigulang para sa DSWD nila
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h2>Advocator</h2>
+            <h4>March 20, 2023 - Present</h4>
+            <h3>Deparment of Information and Communications Technology</h3>
+            <br />
+            <p style="font-size: 14px">
+              Advocating for cybersecurity is essential in our digital world.
+              With increasing cyber threats and attacks, it is crucial to
+              promote awareness and proactive measures to protect sensitive
+              information. By advocating for strong passwords, regular software
+              updates, and educating individuals about phishing scams and online
+              safety, we can strengthen our collective defense against
+              cybercrime.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----OJT EXPOSURE-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">OJT Exposure Pictures</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/wrk1.jpg" />
+            <div class="layer">
+              <h2>Collecting Foods in Neighbor</h2>
+              <br />
+              <h4>August 4, 2016 - December 6, 2016</h4>
+              <h3>IBPLS Dept.</h3>
+              <p>
+                Ensured and monitored the good quality of foods, Visualized and
+                measured the products, and Daily foods to eat
+              </p>
+              <a href="javascript:void(0)"
+                ><i class="fa-solid fa-ruler-combined"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/wrk2.jpg" />
+            <div class="layer">
+              <h2>Mix & Match Juice Drink</h2>
+              <br />
+              <h4>April 2, 2016 - June 23, 2016</h4>
+              <h3>KCFZ Air Conditioning</h3>
+              <p>As usual this Juice Drink is essential to our body.</p>
+              <a href="javascript:void(0)"><i class="fa-solid fa-fan"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/wrk3.jpg" />
+            <div class="layer">
+              <h3>DICT EMERGENCY</h3>
+              <h4>2023</h4>
+              <h3>Training Room</h3>
+              <p>All papers are totally wet.</p>
+              <a href="javascript:void(0)"
+                ><i class="fa-solid fa-burger"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/wrk4.jpg" />
+            <div class="layer">
+              <h3>DICT EMERGENCY</h3>
+              <h4>2023</h4>
+              <h3>Training Room</h3>
+              <p>All papers are totally wet.</p>
+              <a href="javascript:void(0)"
+                ><i class="fa-solid fa-burger"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/wrk5.jpg" />
+            <div class="layer">
+              <h3>DICT EMERGENCY</h3>
+              <h4>2023</h4>
+              <h3>Training Room</h3>
+              <p>All papers are totally wet.</p>
+              <a href="javascript:void(0)"
+                ><i class="fa-solid fa-burger"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/wrk6.jpg" />
+            <div class="layer">
+              <h3>DICT EMERGENCY</h3>
+              <h4>2023</h4>
+              <h3>Training Room</h3>
+              <p>All papers are totally wet.</p>
+              <a href="javascript:void(0)"
+                ><i class="fa-solid fa-burger"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/wrk7.jpg" />
+            <div class="layer">
+              <h2>Collecting Foods in Neighbor</h2>
+              <br />
+              <h4>August 4, 2016 - December 6, 2016</h4>
+              <h3>IBPLS Dept.</h3>
+              <p>
+                Ensured and monitored the good quality of foods, Visualized and
+                measured the products, and Daily foods to eat
+              </p>
+              <a href="javascript:void(0)"
+                ><i class="fa-solid fa-ruler-combined"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/wrk7.jpg" />
+            <div class="layer">
+              <h2>Mix & Match Juice Drink</h2>
+              <br />
+              <h4>April 2, 2016 - June 23, 2016</h4>
+              <h3>KCFZ Air Conditioning</h3>
+              <p>As usual this Juice Drink is essential to our body.</p>
+              <a href="javascript:void(0)"><i class="fa-solid fa-fan"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/wrk1.jpg" />
+            <div class="layer">
+              <h2>Collecting Foods in Neighbor</h2>
+              <br />
+              <h4>August 4, 2016 - December 6, 2016</h4>
+              <h3>IBPLS Dept.</h3>
+              <p>
+                Ensured and monitored the good quality of foods, Visualized and
+                measured the products, and Daily foods to eat
+              </p>
+              <a href="javascript:void(0)"
+                ><i class="fa-solid fa-ruler-combined"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/wrk2.jpg" />
+            <div class="layer">
+              <h2>Mix & Match Juice Drink</h2>
+              <br />
+              <h4>April 2, 2016 - June 23, 2016</h4>
+              <h3>KCFZ Air Conditioning</h3>
+              <p>As usual this Juice Drink is essential to our body.</p>
+              <a href="javascript:void(0)"><i class="fa-solid fa-fan"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/wrk5.jpg" />
+            <div class="layer">
+              <h3>DICT EMERGENCY</h3>
+              <h4>2023</h4>
+              <h3>Training Room</h3>
+              <p>All papers are totally wet.</p>
+              <a href="javascript:void(0)"
+                ><i class="fa-solid fa-burger"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/wrk4.jpg" />
+            <div class="layer">
+              <h3>DICT EMERGENCY</h3>
+              <h4>2023</h4>
+              <h3>Training Room</h3>
+              <p>All papers are totally wet.</p>
+              <a href="javascript:void(0)"
+                ><i class="fa-solid fa-burger"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="javascript:void(0)" class="btn" id="load-more">Load more</a>
+      </div>
+    </div>
+    <!----------contact------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>Toril Marapangi 1, Davao
+              City
+            </p>
+            <p><i class="fa-solid fa-envelope"></i>jaymaynagcot@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>09661706071</p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/jayare.maynagcot"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://github.com/JayAreM" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/jayare_maynagcot/?hl=en"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://m.me/jayare.maynagcot" target="_blank"
+                ><i class="fa-brands fa-facebook-messenger"></i
+              ></a>
+            </div>
+            <a
+              href="files/JayMaynagcot_MyCV.pdf"
+              target="_blank"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form
+              action="https://script.google.com/macros/s/AKfycbznQNi9tKVR9p36Vxt1SOqX4Aq5R6WvK4-LWMle3IqHJlmJ-LGRdyvDwTBgaCoN0e5u2A/exec"
+              method="post"
+            >
+              <input
+                style="border: solid 1px"
+                type="text"
+                name="name"
+                placeholder="Your Name/Institution"
+                required
+              />
+              <input
+                style="border: solid 1px"
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                style="border: solid 1px"
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2" id="sub">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      /* const scriptURL = 'https://script.google.com/macros/s/AKfycbyJK4NuIpHEGg3fO3arGqAARoQCxu5C0MypMm-VfhVXH7HFvyU3baCW_0n765EpiCiE/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Your message has been sent!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message)) 
+    }) */
+
+      let form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault;
+        document.querySelector("#sub").value = "Submiting..";
+        let data = new FormData(form);
+
+        fetch("", {
+          method: "POST",
+          body: data,
+        })
+          .then((res) => res.text())
+
+          .then((data) => {
+            document.querySelector("#msg").innerHTML = data;
+            document.querySelector("#sub").value = "submit";
+          });
+      });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var itemsToShow = 4; // Number of items to show initially
+        var itemsIncrement = 4; // Number of items to load on each "Load More" click
+        var $works = $(".work");
+
+        // Hide extra items initially
+        $works.slice(itemsToShow).hide();
+
+        // Function to show more items
+        function showMoreItems() {
+          var toShow = $works.filter(":hidden").slice(0, itemsIncrement);
+          toShow.show();
+
+          // Hide "Load More" button if no more items to show
+          if (toShow.length == 0) {
+            $("#load-more").hide();
+          }
+        }
+
+        // Show more items on button click
+        $("#load-more").click(function () {
+          showMoreItems();
+        });
+      });
+    </script>
+
+    <script>
+      function myLightMode() {
+        var element = document.body;
+        element.classList.toggle("light-mode");
+      }
+    </script>
+
+    <a onclick="myLightMode()" id="light-mode"
+      ><i class="fa-solid fa-sun"></i>
+    </a>
+
+    <a id="backtotop" href="#header"><i class="fa-solid fa-arrow-up"></i></a>
+  </body>
+</html>
